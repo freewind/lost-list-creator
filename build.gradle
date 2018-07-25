@@ -14,6 +14,11 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'com.jfrog.bintray'
 
+compileJava   {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
 repositories {
     mavenLocal()
     maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
@@ -31,7 +36,7 @@ ext {
     publishedGroupId = 'freewind.github'
     // `artifact` also use as and `bintray.pkg.name` for simplifying
     artifact = 'lost-list-creator'
-    libraryVersion = '1.0.0'
+    libraryVersion = '0.1.0'
     // `libraryName` also uses as `bintray.pkg.libraryName` and `bintray.pkg.version.libraryName`
     libraryName = 'A lib just to let you create `java.util.ArrayList` in a easy way'
 

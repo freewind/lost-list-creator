@@ -19,6 +19,25 @@ All the return Types are `java.util.ArrayList`.
 
 That's all.
 
+Use in maven
+------------
+
+```
+<dependency>
+    <groupId>freewind.github</groupId>
+    <artifactId>lost-list-creator</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
+
+or in gradle:
+
+```
+dependencies {
+    compile 'freewind.github:lost-list-creator:0.1.0'
+}
+```
+
 Why this lib?
 -------------
 
