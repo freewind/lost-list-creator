@@ -38,6 +38,11 @@ dependencies {
 }
 ```
 
+License
+-------
+
+Apache License 2.0
+
 Why this lib?
 -------------
 
