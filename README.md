@@ -19,6 +19,8 @@ Lists.copy(otherList);
 Lists.arrayListFilled(3, "*");
 ```
 
+Also same api for `LinkedList`.
+
 All the return Types are `java.util.ArrayList`.
 
 That's all.
@@ -30,7 +32,7 @@ Use in maven
 <dependency>
     <groupId>freewind.github</groupId>
     <artifactId>lost-list-creator</artifactId>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
 </dependency>
 ```
 
@@ -38,7 +40,7 @@ or in gradle:
 
 ```
 dependencies {
-    compile 'freewind.github:lost-list-creator:0.4.0'
+    compile 'freewind.github:lost-list-creator:0.5.0'
 }
 ```
 
