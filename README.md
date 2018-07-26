@@ -14,6 +14,8 @@ ArrayLists.create(new String[]{"hello", "world"});
 
 ArrayLists.create(otherList/otherSet/otherCollection);
 
+ArrayLists.copy(otherList);
+
 ArrayLists.createFilled(3, "*");
 ```
 

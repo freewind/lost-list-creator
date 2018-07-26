@@ -3,6 +3,7 @@ package com.github.freewind.lostlist;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 
 public class ArrayLists {
 
@@ -16,6 +17,10 @@ public class ArrayLists {
 
     public static <T> ArrayList<T> create(Collection<? extends T> items) {
         return new ArrayList<T>(items);
+    }
+    
+    public static <T> ArrayList<T> copy(List<? extends T> list) {
+        return new ArrayList<T>(list);
     }
 
     public static <T> ArrayList<T> createFilled(int size, T t) {
