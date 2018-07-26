@@ -29,16 +29,29 @@ Use in maven
 ------------
 
 ```
-<dependency>
-    <groupId>freewind.github</groupId>
-    <artifactId>lost-list-creator</artifactId>
-    <version>0.5.0</version>
-</dependency>
+<repositories>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com/</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>freewind.github</groupId>
+        <artifactId>lost-list-creator</artifactId>
+        <version>0.5.0</version>
+    </dependency>
+</dependencies>
 ```
 
 or in gradle:
 
 ```
+repositories {
+    jcenter()
+}
+
 dependencies {
     compile 'freewind.github:lost-list-creator:0.5.0'
 }
