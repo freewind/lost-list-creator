@@ -30,7 +30,7 @@ Use in maven
 <dependency>
     <groupId>freewind.github</groupId>
     <artifactId>lost-list-creator</artifactId>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
 </dependency>
 ```
 
@@ -38,7 +38,7 @@ or in gradle:
 
 ```
 dependencies {
-    compile 'freewind.github:lost-list-creator:0.2.0'
+    compile 'freewind.github:lost-list-creator:0.3.0'
 }
 ```
 
