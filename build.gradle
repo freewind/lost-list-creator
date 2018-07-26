@@ -14,7 +14,7 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'com.jfrog.bintray'
 
-compileJava   {
+compileJava {
     sourceCompatibility = '1.8'
     targetCompatibility = '1.8'
 }
@@ -28,7 +28,7 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4.11'
-    testCompile 'org.easytesting:fest-assert-core:2.0M10'
+    testCompile 'org.assertj:assertj-core:3.10.0'
 }
 
 ext {
@@ -36,7 +36,7 @@ ext {
     publishedGroupId = 'freewind.github'
     // `artifact` also use as and `bintray.pkg.name` for simplifying
     artifact = 'lost-list-creator'
-    libraryVersion = '0.1.0'
+    libraryVersion = '0.1.1'
     // `libraryName` also uses as `bintray.pkg.libraryName` and `bintray.pkg.version.libraryName`
     libraryName = 'A lib just to let you create `java.util.ArrayList` in a easy way'
 
