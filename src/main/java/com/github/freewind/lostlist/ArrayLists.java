@@ -4,21 +4,21 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-public class Lists {
+public class ArrayLists {
 
-    public static <T> ArrayList<T> emptyList() {
+    public static <T> ArrayList<T> empty() {
         return new ArrayList<T>();
     }
 
-    public static <T> ArrayList<T> newList(T... items) {
+    public static <T> ArrayList<T> create(T... items) {
         return new ArrayList<T>(Arrays.asList(items));
     }
 
-    public static <T> ArrayList<T> newList(Collection<? extends T> items) {
+    public static <T> ArrayList<T> create(Collection<? extends T> items) {
         return new ArrayList<T>(items);
     }
 
-    public static <T> ArrayList<T> newListFilled(int size, T t) {
+    public static <T> ArrayList<T> createFilled(int size, T t) {
         if (size < 0) throw new IllegalArgumentException("size(" + size + ") should >= 0");
 
         ArrayList<T> list = new ArrayList<T>();

@@ -6,13 +6,15 @@ Provide a simple list creator which has been missing for years.
 Usage is quite easy:
 
 ```
-Lists.emptyList();
+ArrayLists.empty();
 
-Lists.newList("hello", "world");
+ArrayLists.create("hello", "world");
 
-Lists.newList(new String[]{"hello", "world"});
+ArrayLists.create(new String[]{"hello", "world"});
 
-Lists.newList(otherList/otherSet/otherCollection);
+ArrayLists.create(otherList/otherSet/otherCollection);
+
+ArrayLists.createFilled(3, "*");
 ```
 
 All the return Types are `java.util.ArrayList`.
@@ -26,7 +28,7 @@ Use in maven
 <dependency>
     <groupId>freewind.github</groupId>
     <artifactId>lost-list-creator</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
 </dependency>
 ```
 
@@ -34,7 +36,7 @@ or in gradle:
 
 ```
 dependencies {
-    compile 'freewind.github:lost-list-creator:0.1.0'
+    compile 'freewind.github:lost-list-creator:0.2.0'
 }
 ```
 
