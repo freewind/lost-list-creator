@@ -10,7 +10,7 @@ public class ListSpec {
 
     @Test
     public void test_create_list_of_items() {
-        List<String> list = Lists.of("hello", "list");
+        List<String> list = Lists.listOf("hello", "list");
         assertThat(list).isNotEmpty()
                 .containsExactly("hello", "list");
     }

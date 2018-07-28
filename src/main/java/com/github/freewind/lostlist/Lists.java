@@ -4,10 +4,10 @@ import java.util.*;
 
 public class Lists {
 
-    public static <T> List<T> of(T... items) {
+    public static <T> List<T> listOf(T... items) {
         return arrayList(items);
     }
-    
+
     public static <T> ArrayList<T> emptyArrayList() {
         return new ArrayList<T>();
     }
