@@ -8,10 +8,16 @@ Usage is quite easy.
 If you don't care for the type of the list, just use:
 
 ```
-Lists.of("hello", "list");
+Lists.list("hello", "list");
 ```
 
-otherwise, you can choose the exact return type of the list. Say for `java.util.ArrayList`:
+Or with static import, it can be simplified as:
+
+```
+list("hello", "list")
+```
+
+You can choose the exact return type of the list when that's need. Say for `java.util.ArrayList`:
 
 ```
 Lists.emptyArrayList();
