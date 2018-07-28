@@ -48,7 +48,7 @@ Use in maven
     <dependency>
         <groupId>freewind.github</groupId>
         <artifactId>lost-list-creator</artifactId>
-        <version>0.5.1</version>
+        <version>0.5.2</version>
     </dependency>
 </dependencies>
 ```
@@ -61,7 +61,7 @@ repositories {
 }
 
 dependencies {
-    compile 'freewind.github:lost-list-creator:0.5.1'
+    compile 'freewind.github:lost-list-creator:0.5.2'
 }
 ```
 
