@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Lists {
 
-    public static <T> List<T> listOf(T... items) {
+    public static <T> List<T> list(T... items) {
         return arrayList(items);
     }
 
