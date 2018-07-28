@@ -89,7 +89,6 @@ public class ArrayListSpec {
     @Test
     public void test_create_array_list_filled_throws_exception_is_size_is_negative() {
         assertThatThrownBy(() -> Lists.arrayListFilled(-1, "a"))
-                .isExactlyInstanceOf(ArrayList.class)
                 .isInstanceOf(IllegalArgumentException.class)
                 .hasMessage("size(-1) should >= 0");
     }

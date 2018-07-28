@@ -3,7 +3,15 @@ The Lost List Creator
 
 Provide a simple list creator which has been missing for years.
 
-Usage is quite easy:
+Usage is quite easy.
+
+If you don't care for the type of the list, just use:
+
+```
+Lists.of("hello", "list");
+```
+
+otherwise, you can choose the exact return type of the list. Say for `java.util.ArrayList`:
 
 ```
 Lists.emptyArrayList();
@@ -40,7 +48,7 @@ Use in maven
     <dependency>
         <groupId>freewind.github</groupId>
         <artifactId>lost-list-creator</artifactId>
-        <version>0.5.0</version>
+        <version>0.5.1</version>
     </dependency>
 </dependencies>
 ```
@@ -53,7 +61,7 @@ repositories {
 }
 
 dependencies {
-    compile 'freewind.github:lost-list-creator:0.5.0'
+    compile 'freewind.github:lost-list-creator:0.5.1'
 }
 ```
 
